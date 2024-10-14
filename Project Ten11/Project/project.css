@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/* body{
+    background: linear-gradient(90deg, rgb(131, 131, 151), rgb(91, 139, 91));
+} */
+:root{
+    --color-yellow:#ffec00;
+    --color-blue:#001094;
+    --color-white:white;
+    --color-green: rgb(18, 232, 18);
+
+}
+header{
+    width: 100%;
+    padding: 10px 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+header .header-icon{
+    font-size: 30px;
+}
+header .header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .header-right .login{
+    font-size: 25px;
+}
+header .header-right .search{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+header .header-right .search input{
+    padding: 3px 5px;
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+header .header-right .search input::placeholder{
+    color: black;
+}
+
+main .notifiction{
+    background-color: var(--color-yellow);
+    padding: 40px;
+    text-align: center;
+    color: var(--color-blue);
+}
+main .bg-image{
+    width: 100%;
+    height: 100vh;
+}
+.collection-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.collection {
+    margin: 20px;
+}
+
+.collection img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1dda5c;
+}
+.section {
+    text-align: center;
+    margin-top: 20px;
+}
+.section h2 {
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    display: inline-block;
+}
+.product-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.product {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+.price {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9em;
+    margin: 3px;
+    gap: 3px;
+}
+.discount{
+    margin: 3px;
+}
+.title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.fa-bookmark {
+    float: right;
+    color: #888;
+    cursor: pointer;
+}
+.group{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+}
+p{
+    text-align: left;
+}
+.color-swatches {
+    display: flex;
+    margin-top: 5px;
+}
+.color-swatch {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin-right: 7px;
+    border-radius: 40%;
+    border: 1px solid #ddd;
+}
+.color-swatch.pink {
+    background-color: #f9c0c0;
+}
+.color-swatch.brown {
+    background-color: #8b5e3c;
+}
+.color-swatch.blue {
+    background-color: #22cf9b;
+}
+.color-swatch.black {
+    background-color: #020202;
+}
+.color-swatch.greenk {
+    background-color: #04fc31;
+}
+.notifiction-1{
+    background-color: var(--color-green);
+    padding: 40px;
+    text-align: center;
+    color: var(--color-blue);
+}
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.footer div {
+    margin: 0 15px;
+}
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+a {
+    color: #c0c0c0;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+a:hover {
+    color: #fff;
+}
+.social-icons i {
+    margin-right: 5px;
+}
+.payment-methods img {
+    width: 40px;
+    margin-right: 10px;
+}
+.other-methods{
+    display: flex;
+}
+.fa-university{
+    margin: 8px 0;
+}
+.fa-shopping-bag{
+    margin: 8px 8px;
+}
+.footer-1{
+    width: 100%;
+    height: 25px;
+}
+.footer-1 p{
+    text-align: center;
+    margin-top: 5px;
+}
